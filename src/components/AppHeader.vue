@@ -24,13 +24,4 @@ export default {
     </header>
 </template>
 
-<style lang="scss" scoped>
-@use '../styles/partials/utilities.scss' as *;
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-</style>
+<style lang="scss" scoped></style>

@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    footer
+    <div class="wrapper">Footer</div>
 </template>
 
 <style scoped></style>

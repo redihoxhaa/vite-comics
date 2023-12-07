@@ -8,14 +8,20 @@
 }
 
 body {
-    padding: 20px;
     font-family: 'Asap Condensed', sans-serif;
     font-weight: 500;
-
-
 }
 
 a {
     text-decoration: none;
     color: unset;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    width: 100%;
 }

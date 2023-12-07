@@ -9,7 +9,13 @@ export default {
 </script>
 
 <template>
-    <img src="../../public/img/dc-logo.png" alt="DC Logo">
+    <div class="pic-container">
+        <img src="../../public/img/dc-logo.png" alt="DC Logo">
+    </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.pic-container {
+    padding: 20px 0;
+}
+</style>
