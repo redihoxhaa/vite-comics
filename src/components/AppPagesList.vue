@@ -36,7 +36,7 @@ ul {
                 height: 5px;
                 background-color: $main-color;
                 position: absolute;
-                top: 50px;
+                top: 75px;
                 left: 0;
             }
         }

@@ -1,15 +1,26 @@
 <script>
+import AppTopFooter from './AppTopFooter.vue';
+import AppBottomFooter from './AppBottomFooter.vue';
+
 export default {
     data() {
         return {
 
         }
+    },
+    components: {
+        AppTopFooter,
+        AppBottomFooter
     }
 }
 </script>
 
 <template>
-    <div class="wrapper">Footer</div>
+    <footer>
+        <AppTopFooter />
+        <AppBottomFooter />
+
+    </footer>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>

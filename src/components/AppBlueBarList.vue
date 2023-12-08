@@ -34,10 +34,12 @@ export default {
 <template>
     <ul>
         <li v-for="element in blueBarElements">
-            <div class="pic-container">
-                <img :src="element.img" :alt="element.text">
-            </div>
-            <span>{{ element.text }}</span>
+            <a href="#">
+                <div class="pic-container">
+                    <img :src="element.img" :alt="element.text">
+                </div>
+                <span>{{ element.text }}</span>
+            </a>
         </li>
     </ul>
 </template>
@@ -45,11 +47,11 @@ export default {
 <style scoped lang="scss">
 ul {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    gap: 80px;
+    width: 100%;
 
-    li {
+    a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -57,6 +59,12 @@ ul {
         .pic-container {
             width: 50px;
             height: 50px;
+            margin-right: 15px;
+
+            img {
+                height: 100%;
+                object-fit: contain;
+            }
         }
 
         span {
