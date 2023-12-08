@@ -70,6 +70,8 @@ ul {
         span {
             color: white;
             text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
         }
     }
 }

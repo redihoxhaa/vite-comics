@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <button>Sign-up now!</button>
+    <button><a href="#">Sign-up now!</a></button>
 </template>
 
 <style lang="scss" scoped>
@@ -23,8 +23,8 @@ button {
     background-color: transparent;
     border: 2px solid $main-color;
     color: white;
-    font-weight: bold;
     padding: 15px;
-    margin: 30px 0
+    margin: 30px 0;
+    font-size: 1.125rem;
 }
 </style>
