@@ -1,6 +1,7 @@
 <script>
 import AppTopFooterList from './AppTopFooterList.vue';
 
+
 export default {
     data() {
         return {
@@ -8,7 +9,8 @@ export default {
         }
     },
     components: {
-        AppTopFooterList
+        AppTopFooterList,
+
     }
 
 }
@@ -18,6 +20,7 @@ export default {
     <div class="top-footer">
         <div class="wrapper">
             <AppTopFooterList />
+
         </div>
     </div>
 </template>
@@ -29,6 +32,9 @@ export default {
     background-size: cover;
 
     .wrapper {
+        background-image: url(../../public/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
         justify-content: flex-start;
         align-items: flex-start;
         gap: 30px;

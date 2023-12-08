@@ -71,13 +71,13 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 60px 0;
+    padding: 50px 0 70px;
 
     ul {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 6px;
+        gap: 4px;
 
 
         li {
