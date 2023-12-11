@@ -9,9 +9,11 @@ export default {
 
 <template>
     <div class="pic-container">
-        <img :src="img" :alt="title">
+        <a href="#"><img :src="img" :alt="title"></a>
     </div>
-    <h5>{{ title }}</h5>
+    <a class="comic-title" href="#">
+        <h5>{{ title }}</h5>
+    </a>
 </template>
 
 <style lang="scss" scoped>
@@ -21,13 +23,15 @@ export default {
     overflow: hidden;
 }
 
-h5 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    margin-top: 20px;
-    font-weight: 400;
+.comic-title {
 
+    h5 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 20px;
+    }
 
 }
 </style>
