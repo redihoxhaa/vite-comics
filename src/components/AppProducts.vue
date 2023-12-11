@@ -87,9 +87,10 @@ export default {
 <template>
     <div class="wrapper">
         <ul class="products">
-            <li v-for="product in products" :img="product.thumb" :title="product.title">
-                <AppProduct />
+            <li v-for="product in products">
+                <AppProduct :img="product.thumb" :title="product.series" />
             </li>
+
         </ul>
         <AppMainButton />
     </div>
@@ -97,8 +98,21 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 12px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 50px 0;
+        gap: 30px;
+
+        li {
+            width: calc((100% - 150px) / 6);
+
+        }
+    }
 }
 </style>

@@ -30,7 +30,6 @@ main {
 
     .wrapper {
         position: relative;
-        display: flex;
         justify-content: center;
     }
 

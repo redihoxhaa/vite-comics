@@ -12,6 +12,6 @@ export default {}
 
 .jumbotron {
     height: 400px;
-    @include background-placer('../../../public/img/jumbotron.jpg', cover, top)
+    @include background-placer('../../../public/img/jumbotron.jpg', cover, top, no-repeat);
 }
 </style>

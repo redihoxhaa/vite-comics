@@ -17,8 +17,9 @@ h3 {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(0, -50%);
+    transform: translate(30px, -50%);
     font-size: 1.5rem;
+    z-index: 999;
 
 }
 </style>
