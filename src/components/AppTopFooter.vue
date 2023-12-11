@@ -27,12 +27,12 @@ export default {
 
 <style lang="scss" scoped>
 .top-footer {
-    background-image: url(../../public/img/footer-bg.jpg);
+    background-image: url(/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
     .wrapper {
-        background-image: url(../../public/img/dc-logo-bg.png);
+        background-image: url(/img/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-position: right;
         justify-content: flex-start;

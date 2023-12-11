@@ -5,23 +5,23 @@ export default {
             socialElements: [
                 {
                     name: 'facebook',
-                    img: '../../public/img/footer-facebook.png',
+                    img: '/img/footer-facebook.png',
                 },
                 {
                     name: 'twitter',
-                    img: '../../public/img/footer-twitter.png',
+                    img: '/img/footer-twitter.png',
                 },
                 {
                     name: 'youtube',
-                    img: '../../public/img/footer-youtube.png',
+                    img: '/img/footer-youtube.png',
                 },
                 {
                     name: 'pinterest',
-                    img: '../../public/img/footer-pinterest.png',
+                    img: '/img/footer-pinterest.png',
                 },
                 {
                     name: 'periscope',
-                    img: '../../public/img/footer-periscope.png',
+                    img: '/img/footer-periscope.png',
                 },
             ]
 

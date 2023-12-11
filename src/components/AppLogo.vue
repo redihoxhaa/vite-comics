@@ -10,7 +10,7 @@ export default {
 
 <template>
     <div class="pic-container">
-        <img src="../../public/img/dc-logo.png" alt="DC Logo">
+        <img src="/img/dc-logo.png" alt="DC Logo">
     </div>
 </template>
 

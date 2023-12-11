@@ -1,0 +1,5 @@
+@mixin background-placer($image, $size, $position) {
+    background-image: url($image);
+    background-size: $size;
+    background-position: $position;
+}

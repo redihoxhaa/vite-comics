@@ -1,27 +1,3 @@
 @use './partials/utilities.scss' as *;
-@use './partials/variables.scss' as *;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Asap Condensed', sans-serif;
-    font-weight: 500;
-}
-
-a {
-    text-decoration: none;
-    color: unset;
-}
-
-ul {
-    list-style-type: none;
-}
-
-img {
-    display: block;
-    width: 100%;
-}
+@use './partials/reset' as *;
+@use './partials/typography' as *;
