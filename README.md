@@ -36,3 +36,28 @@ In questo caso come struttura dati abbiamo un array di path per immagini che and
 
 Per ottenere l'illusione di un container principale abbiamo dovuto usare un wrapper per wrappare ogni macroelemento in modo da limitarne
 la grandezza massima. 
+
+-----
+
+#### Abbiamo costruito anche il main
+
+- Costruiamo il nostro componente jumbotron per iniziare, che non sarà altro che un div vuoto con una dimensione di 400px in altezza e una larghezza
+che si adatterà al viewport. Usiamo un mixin per includere l'immagine di background e le sue proprietà.
+
+- Includiamo nel main anche la bluebar che precedentemente abbiamo creato.
+
+- Costruiamo un componenete AppMainTitle, che sarà il titolo della sezione attiva in quel momento. Lo importiamo nel main per il semplice fatto che
+sarà posizionato in modo assoluto rispetto al wrapper di quest'ultimo.
+
+- Creiamo anche un bottone LOAD MORE che andiamo ad inserire in fondo al main giusto per avere una visione di quello che sarà lo spazio nel quale
+inserire la lista di fumetti.
+
+- A questo punto creiamo un elemento AppProducts e un elemento AppProduct. Dentro AppProducts andremo a creare un ul, con dentro tanti li quanti
+gli elementi presenti nell'array del nostro file .json. Per fare questo usiamo un v-for. Dentro il li andiamo ad includere il nostro componente
+AppProduct e gli passiamo 2 props che sono immagine, e titolo. Per fare questo dobbiamo definirli in AppProduct nella sezione props dentro export default.
+
+- Ora stilizziamo e diamo le giuste dimensioni ai nostri elementi in base del tipo di griglia che vogliamo ottenere. In questo caso sarà una griglia da 6 elementi,
+con un gap di 30px, quindi andiamo a calcolare la dimensione del nostro li con `width: calc(100% - (gap * 5) / 6);`. Impostiamo il pic-container all'interno del li
+con larghezza 100% e un aspect ratio di 1/1. Non ci resta altro che stilizzare il titolo.
+
+

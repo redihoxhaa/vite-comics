@@ -2,9 +2,10 @@
 
 import AppProducts from './AppProducts.vue';
 import AppMainTitle from './AppMainTitle.vue';
+import AppJumbotron from './AppJumbotron.vue';
 import AppBlueBar from './AppBlueBar.vue';
 export default {
-    components: { AppProducts, AppMainTitle, AppBlueBar, },
+    components: { AppProducts, AppMainTitle, AppBlueBar, AppJumbotron, },
     data() {
         return {};
     },
@@ -14,6 +15,7 @@ export default {
 
 <template>
     <main>
+        <AppJumbotron />
         <div class="wrapper">
             <AppMainTitle />
             <AppProducts />
